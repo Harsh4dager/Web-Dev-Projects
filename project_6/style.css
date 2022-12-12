@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    padding: 30px 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(24, 4, 100);
+}
+.navcontent{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links h5{
+    display: inline;
+}
+.navtxt{
+    color: white;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+}
+.overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/hero_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overviewtext{
+    max-width: 1200px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.overviewtext h1{
+    font-size: 92px;
+    font-weight:700;
+}
+.music{
+    width: 100%;
+    Background: linear-gradient(
+        rgb(29, 5, 72) 60%,
+        rgba(225,225,225,0.05) 40%
+    );
+    text-align: center;
+}
+.mutext{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    text-align: center;
+}
+.mutext h4{
+    width: 150px;
+    margin: auto;
+    font-weight:300;
+    display: inline-block;
+    background-color: red;
+    padding: 8px 0;
+}
+.mutext h4:hover{
+    background-color: rgb(141, 14, 14);
+}
+.muimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aboutmusic{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.aboutmusictxt{
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.aboutmusic h4{
+    color: white;
+    font-weight: 300;
+    width: 100px;
+    margin: auto;
+    background-color: rgb(29, 5, 72);
+    padding: 8px 0;
+}
+.aboutmusictxt h4:hover{
+    background-color: rgb(71, 40, 130);
+}
+.aboutmusicimg{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    height: 100vh;
+    background: url('images/video.png') no-repeat center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.videotext{
+    font-weight: 100;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30vh;
+}
+.giftcard{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.giftcardtext{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.giftcardtext hr{
+    padding: 0.5px;
+}
+.giftcardtext h3{
+    font-size: large;
+    font-weight: bold;
+}
+.giftcardtext h4{
+    width: 90px;
+    color: white;
+    text-align: center;
+    background-color: rgb(29, 5, 72);
+    padding: 8px 0;
+}
+.giftcardtext h4:hover{
+    background-color: rgb(67, 35, 128);
+}
+footer{
+    color: white;
+    background-color: rgb(29, 5, 72);
+    margin-top: 100px;
+}
+.upperfooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+.ftext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.setext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.fotext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.thtext{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.lowerfooter{
+    background-color: rgb(53, 8, 138);
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.first{
+    background-image: url('image1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Fdiv{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+.Ftext{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    padding: 20px;
+}
+.second{
+    background-color: rgb(43, 41, 41);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.second h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.second p{
+    padding: 10px;
+    line-height: 30px;
+}
+.third{
+    background-image: url('image2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Tdiv{
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    position: relative;
+    top: 50%;
+}
+.Ttext{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    padding: 20px
+}
+.fourth{
+    background-color: rgb(39, 37, 37);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.fourth h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.fourth p{
+    padding: 10px;
+    line-height: 30px;
+}
+.fifth{
+    background-image: url('image3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Fifdiv{
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    position: relative;
+    top: 50%;
+}
+.Fiftext{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    padding: 20px
+}
+.sixth{
+    background-color: rgb(39, 37, 37);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.sixth h2{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.sixth p{
+    padding: 10px;
+    line-height: 30px;
+}
+.seventh{
+    background-image: url('image1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Sevdiv{
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    position: relative;
+    top: 50%;
+}
+.Sevtext{
+    color: white;
+    background-color: rgb(43, 41, 41);
+    padding: 20px
+}

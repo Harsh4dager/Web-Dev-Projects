@@ -1,0 +1,183 @@
+@media (max-width: 786px){
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    line-height: 1.4;
+}
+.first{
+    background-image: url('developer.png');
+    height: 50vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.ftext{
+    color: white;
+    font-size: 32px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.second{
+    background-color: black;
+}
+.sdiv{
+    color: white;
+    text-align: center;
+}
+.sdiv h1{
+    margin: 0px;
+    padding: 20px;
+}
+.stext{
+    font-size:xx-large;
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.tweb,.tapp,.tui-ux{
+    box-sizing: 2px;
+    box-shadow: 12px gray;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+}
+.tweb-text,.tapp-text,.tui-ux-text{
+    width: 300px;
+    padding-left:20px ;
+}
+.tweb:hover,.tapp:hover,.tui-ux:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.fourth{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.contact{
+    background-color: rgb(6, 51, 6);
+    min-height: 250px;
+    padding: 32px;
+}
+.about{
+    background-color: maroon;
+    min-height: 250px;
+    padding: 32px;
+}
+.about p, .contact p{
+    margin-bottom: 20px;
+}
+.bottom{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+}
+
+
+@media (min-width: 786px ){
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family:sans-serif;
+        line-height: 1.4;
+    }
+    .first{
+        background-image: url('developer.png');
+        height: 100vh;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+    .fdiv{
+        padding-top: 45px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    .ftext{
+        color: white;
+        font-size: 62px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .name{
+        color: white;
+        font-size: 22px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .second{
+        background-color: black;
+    }
+    .sdiv{
+        color: white;
+        text-align: center;  
+        line-height: 2;  
+    }
+    .sdiv h1{
+        margin: 0px;
+        padding: 20px;
+        font-size: 65px;
+    }
+    .stext{
+        font-weight:800;
+    }
+    .third{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .tweb,.tapp,.tui-ux{
+        box-sizing: 2px;
+        box-shadow: 12px gray;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    }
+    .tweb-text,.tapp-text,.tui-ux-text{
+        width: 300px;
+        padding-left:20px ;
+    }
+    .tweb:hover,.tapp:hover,.tui-ux:hover{
+        transform: scale(1.04);
+        box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+        transition: 0.2s ease-in-out;
+    }
+    .fourth{
+        color: white;
+        display: flex;
+        font-family: "Roboto", sans-serif;
+    }
+    .contact{
+        background-color: rgb(6, 51, 6);
+        padding: 32px;
+        padding:50px
+    }
+    .about{
+        background-color: maroon;
+        padding: 32px;
+        padding: 50px;
+    }
+    .about,.contact{
+        width:100%;
+    }
+    .about p, .contact p{
+        margin-bottom: 20px;
+    }
+    .bottom{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 15px;
+    }
+}
