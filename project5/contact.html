@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            width: 100%;
+        }
+
+        body h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 60%;
+            margin: auto;
+        }
+
+        input,
+        textarea,
+        #query {
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        [type="radio"] {
+            width: auto;
+            height: auto;
+        }
+
+        textarea {
+            resize: none;
+            height: 150px;
+        }
+
+        [type="submit"],
+        [type="reset"] {
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <label for="query">Type of Query</label> <br>
+        <select name="query" id="query">
+            <option value="General">General questions</option>
+            <option value="Food">Food and drink questions</option>
+            <option value="cus-service">Customer service questions</option>
+            <option value="Facilites">Dining Facilites question</option>
+            <option value="report">Bad behavior reporting</option>
+        </select><br><br>
+
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="per-name"><br><br>
+
+        <label for="email-id">Email-Id</label><br>
+        <input type="email" id="email-id" name="email"><br><br>
+
+        <label for="phone">Phone Number</label><br>
+        <input type="number" id="phone" name="ph-no."><br><br>
+
+        <h3>Are you a member of Restaurant</h3><br>
+        <label for="member">Yes<label>
+                <input type="radio" id="member" name="yes">
+                <label for="member">No<label>
+                        <input type="radio" id="member" name="no"><br><br>
+
+                        <label for="elaboration">Elaborate your query</label><br>
+                        <textarea name="elaboration" id="elaboration"></textarea>
+
+                        <input type="submit">
+                        <input type="reset">
+    </form>
+</body>
+
+</html>
